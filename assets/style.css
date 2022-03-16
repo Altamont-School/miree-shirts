@@ -4,7 +4,7 @@
 :root {
   --gold: #e6a714;
   --gold-2: #dbb55c;
-  --grey: #4b4b4bf5;
+  --grey: #768592;
   --accent: #ef3e36;
   --norm-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   --right-shadow: 0px 8px 0px rgba(0, 0, 0, 0.25);
@@ -57,6 +57,11 @@ p {
   color: var(--gold);
 }
 
+.hero img {
+  width: 300px;
+  height: auto;
+}
+
 @media (max-width: 900px) {
   .hero-content .buttons .secondary {
     width: 93%;
@@ -97,10 +102,10 @@ button {
 
 .secondary {
   text-decoration: none;
-  border: solid 1px var(--gold);
   color: var(--gold);
-  padding: 5px 20px;
+  border: solid 1px var(--gold);
   text-align: center;
+  padding: 5px;
   width: 100%;
   border-radius: 5px;
   transition: ease-in-out 0.2s;
@@ -341,6 +346,14 @@ button {
   margin-top: 3vh;
 }
 
+.hero-buttons {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 20px;
+  width: 100%;
+  margin-top: 2vh;
+}
+
 .buttons {
   display: flex;
   width: 100%;
@@ -390,7 +403,7 @@ button {
 }
 
 footer {
-  background: grey;
+  background: var(--grey);
   min-height: 20vh;
   width: 100%;
 }
@@ -413,6 +426,13 @@ footer {
   font-size: 1rem;
   font-weight: 500;
   text-transform: uppercase;
+  margin-bottom: 2vh;
+}
+
+.footer-col img {
+  width: 200px;
+  align-self: center;
+  margin-bottom: 4vh;
 }
 
 .footer-col ul {
