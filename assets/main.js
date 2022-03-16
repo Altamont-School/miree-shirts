@@ -90,7 +90,7 @@ students.map((student, i) => {
               </p>
               <button
                 class="snipcart-add-item card-btn"
-                data-item-id="${student.slug}"
+                data-item-id="shirt"
                 data-item-price="26.25"
                 data-item-url="https://altamont-school.github.io/miree-shirts/"
                 data-item-description="A shirt supporting a project by Miree student ${student.name}."
@@ -132,7 +132,7 @@ students.map((student, i) => {
           <div class="buttons">
             <button
             class="snipcart-add-item card-btn"
-            data-item-id="${student.slug}"
+            data-item-id="shirt"
             data-item-price="26.25"
             data-item-url="https://altamont-school.github.io/miree-shirts/"
             data-item-description="A shirt supporting a project by Miree student ${student.name}."
@@ -145,7 +145,7 @@ students.map((student, i) => {
             </button>
             <button
               class="snipcart-add-item secondary-card"
-              data-item-id="donation-${student.slug}"
+              data-item-id="donation"
               data-item-price="5.00"
               data-item-url="https://altamont-school.github.io/miree-shirts/"
               data-item-description="A donation supporting a project by Miree student ${student.name}."
