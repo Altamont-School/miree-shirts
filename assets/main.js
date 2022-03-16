@@ -114,13 +114,13 @@ students.map((student, i) => {
   project.innerHTML = `
         <!-- img for shirts -->
         <div class="shirt-col">
-          <img src="${student.shirtFront}" alt="${student.projectName} Front" />
-          <img src="${student.shirtBack}" alt="${student.projectName} Back" />
+          <img src="${student.shirtFront}" alt="${student.projectName} Front" loading="lazy" />
+          <img src="${student.shirtBack}" alt="${student.projectName} Back" loading="lazy"/>
         </div>
         <!-- details -->
         <div class="project-details">
           <div class="project-header">
-            <img src="${student.picture}" alt="${student.name}" />
+            <img src="${student.picture}" alt="${student.name}" loading="lazy" />
             <div class="project-frontmatter">
               <h3>${student.name}</h3>
               <small>${student.projectName}</small>
@@ -163,5 +163,7 @@ students.map((student, i) => {
 sections.map((section, i) => {
   const sectionImg = document.createElement("img");
   sectionImg.setAttribute("src", section.picture);
+  sectionImg.setAttribute("alt", section.name);
+  sectionImg.setAttribute("loading", "lazy");
   studentImages.appendChild(sectionImg);
 });
