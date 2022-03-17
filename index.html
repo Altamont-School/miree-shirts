@@ -6,8 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Miree Service Projects Store</title>
     <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="msapplication-config" content="/browserconfig.xml" />
+    <meta name="msapplication-TileColor" content="e6a714" />
+    <meta name="theme-color" content="e6a714" />
     <link rel="preconnect" href="https://app.snipcart.com" />
     <link rel="preconnect" href="https://cdn.snipcart.com" />
+    <meta property="og:title" content="Miree Service Projects Store" />
+    <meta
+      property="og:description"
+      content="Through our C. Kyser Miree Center for Ethical Leadership, our students
+      are leading the charge to improve their community. You can help by
+      purchasing a shirt to support these projects."
+    />
+    <meta property="og:image" content="./assets/alt-logo.webp" />
     <link
       rel="stylesheet"
       href="https://cdn.snipcart.com/themes/v3.3.1/default/snipcart.css"
@@ -18,7 +33,7 @@
     <a href="#" class="snipcart-checkout circle"
       ><img src="./assets/cart.svg" alt="Shopping Cart"
     /></a>
-    <div class="hero">
+    <div class="hero" id="hero">
       <div class="hero-content">
         <h1>Our students are <span>improving the fabric of society</span></h1>
         <p>
@@ -41,10 +56,9 @@
         <div class="shirt-info">
           <h2>Support These Projects!</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia
-            obcaecati saepe enim assumenda corrupti maiores! Tempora ad
-            repellendus hic commodi ex libero, eos, porro temporibus quod
-            sapiente, corrupti delectus natus.
+            Below you'll find three projets from our Upper School Miree students
+            that you can support by either purchasing a shirt or making a
+            donation. Details for each project can be found below.
           </p>
         </div>
         <div class="shirt-gallery"></div>
@@ -58,22 +72,18 @@
         <h2>Built By These Students!</h2>
         <div id="student-images"></div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam
-          aut dignissimos ullam harum. Perferendis, corrupti, dolore iure at
-          doloribus modi, laboriosam doloremque corporis magni quas eveniet
-          nesciunt. Reprehenderit, magni? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. In quibusdam aut dignissimos ullam harum.
-          Perferendis, corrupti, dolore iure at doloribus modi, laboriosam
-          doloremque corporis magni quas eveniet nesciunt. Reprehenderit, magni?
-          <br />
-          <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. In quibusdam
-          aut dignissimos ullam harum. Perferendis, corrupti, dolore iure at
-          doloribus modi, laboriosam doloremque corporis magni quas eveniet
-          nesciunt. Reprehenderit, magni? Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. In quibusdam aut dignissimos ullam harum.
-          Perferendis, corrupti, dolore iure at doloribus modi, laboriosam
-          doloremque corporis magni quas eveniet nesciunt. Reprehenderit, magni?
+          Altamont’s 6th grade math classes are taking part in an
+          interdisciplinary project on running a nonprofit business. As part of
+          the project, the 6th grade students are collaborating with Miree
+          Center students Karen Raymundo-Vega, Sarah Patrick Barze and Riley
+          Pierce, using their Miree projects as inspiration. The 6th graders
+          designed and are selling T-shirts to raise funds for the three Miree
+          projects. As part of the interdisciplinary unit, the students have
+          worked on design with the co-director of a local nonprofit, learned
+          about sales and marketing from a local art director and sales
+          executive, collected and used information from a local t-shirt vendor
+          to make decisions about pricing, and explored website design and
+          design software with Altamont’s director of education technology.
         </p>
       </div>
     </section>
@@ -83,20 +93,20 @@
         <div class="footer-col">
           <h3>Navigation</h3>
           <ul>
-            <li>Back to top</li>
-            <li>First Project</li>
-            <li>Second Project</li>
-            <li>Third Project</li>
+            <li>
+              <a href="#hero">To Top</a>
+            </li>
           </ul>
         </div>
         <div class="footer-col">
           <img src="./assets/Miree_Logo.png" alt="The Altamont School Logo" />
           <small>
-            General info about the C. Kyser Miree Center for Ethical Leadership.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum
-            aperiam alias voluptatibus vero, dolores totam beatae nihil saepe
-            sit dolorum placeat minus eligendi maiores facilis eos laboriosam,
-            animi, repellendus deleniti!
+            Miree leaders create and implement Miree Projects based on
+            individual interests that serve a need in the greater Birmingham
+            community. Additionally, Miree Leaders complete over 80 hours of
+            community service, attend 12 cultural events, and successfully
+            defend their leadership experiences in order to earn the Miree
+            Commendation on the Altamont diploma.
           </small>
         </div>
         <div class="footer-col">
@@ -105,7 +115,7 @@
             alt="The Altamont School Logo"
             style="margin-top: 2vh"
           />
-          <small style="margin-top: 3vh">
+          <small>
             The Altamont School is a coeducational college preparatory
             independent day school enrolling students in grades 5-12. We are
             located on the crest of Red Mountain in a secluded residential
@@ -119,19 +129,19 @@
       <p
         class="snipcart-add-item"
         data-item-id="shirt-riley-pierce"
-        data-item-price="26.25"
+        data-item-price="28.00"
         data-item-url="https://altamont-school.github.io/miree-shirts/"
       ></p>
       <p
         class="snipcart-add-item"
         data-item-id="shirt-karen-raymundo-vega"
-        data-item-price="26.25"
+        data-item-price="28.00"
         data-item-url="https://altamont-school.github.io/miree-shirts/"
       ></p>
       <p
         class="snipcart-add-item"
         data-item-id="shirt-sarah-barze"
-        data-item-price="26.25"
+        data-item-price="28.00"
         data-item-url="https://altamont-school.github.io/miree-shirts/"
       ></p>
       <p
@@ -161,7 +171,7 @@
     <div
       hidden
       id="snipcart"
-      data-api-key="NTA5MDlmZWUtMTRmNC00MGU0LThhYjgtM2I4ZTNkNDZiNzg2NjM3ODA5NjkxNjk4NjI3OTQz"
+      data-api-key="NjgwMjE0YTktMzgxYS00YjhlLTg0NzEtMTI3ZWUyMWZkZDQ4NjM3ODA5NjkxNjk4NjI3OTQz"
     ></div>
     <script src="./assets/main.js"></script>
   </body>

@@ -8,25 +8,25 @@ const students = [
     bgImage: `./assets/recursion.webp`,
     shirtFront: `./assets/riley-front.webp`,
     shirtBack: `./assets/riley-back.webp`,
-    shortBlurb: `Short description about the project and the shirt.`,
-    desc: `Our mission is rallying to help animals get adopted and put into good homes. We will do this by raising funds and donating money to shelters. We can prevent animals from being euthanized when it is not needed. With the money that we make, Sarah Patrick will provide the money for animals in shelters. Without your help we cannot achieve our goal of aiding these animals. We would appreciate it if you would devote yourself to this project.<br/><br/> By buying our shirt, you are giving to a great cause, along with owning a stylish T-shirt. This is important for us because it helps spread awareness. Please contribute to helping animals find good homes.`,
+    shortBlurb: `Riley’s mission is to reshape our society, as well the homeless people stuck in poverty. He also runs a program to teach the youth about poverty, and how to help people.`,
+    desc: `Our mission is to reshape the poverty numbers in our society. We are working to support children to volunteer to assist the effort of lowering the poverty percentage in our area. If you buy this shirt, you will be helping to educate children and help people who are less fortunate. When you buy this shirt, you help plant a seed in a young mind to help impoverished people.<br><br>To help you can buy a shirt. If you do so you are not just buying a shirt, you are helping other human beings. When you buy this shirt you not only donate the money for it but by wearing it you inspire people to do the same. One donation can make someone in the 28% of Birmingham that is impoverished live a little longer. You may not know what person will be getting the food bag from you, but you can still know it will help someone through the struggles life throws at them.<br><br>We need to fix this problem and we can't do it alone. We work together.`,
   },
   {
     name: `Karen Raymundo-Vega`,
     slug: `karen-raymundo-vega`,
     picture: `./assets/k-vega.webp`,
-    projectName: `Rivers...`,
+    projectName: `River Clean Up`,
     bgImage: `./assets/rivers.webp`,
     shirtFront: `./assets/karen-front.webp`,
     shirtBack: `./assets/karen-back.webp`,
     shortBlurb: `Karen’s mission is to make our future green. She will host cleanups and take before and after photos to put into a photography exhibition to bring awareness about our environment.`,
-    desc: `Our mission is to make our future green by saving the environment. People pollute 14.5 trillion pounds of trash each year. This shirt will help our mission and save the earth. Karen Raymundo-Vega will do exhibitions, cleanups, and take before and after photos to show people how affecting our Earth. It threatens species survival on this planet.<br/><br/> You can help by buying a shirt and donating to our cause. You can help spread awareness by wearing this shirt. People will see how bad this problem is and stop polluting. At the exhibitions you can see before and after photos. People will go to these exhibitions and see how bad this epidemic is, the epidemic of pollution. So please help spread awareness over this problem and help us solve it.<br/><br/> To hold a steady future for humanity and all life, no matter who you are, you can still help. So, help our cause and remember, our future is green.`,
+    desc: `Our mission is to make our future green by saving the environment. People pollute 14.5 trillion pounds of trash each year. This shirt will help our mission and save the earth. Karen Raymundo-Vega will do exhibitions, cleanups, and take before and after photos to show people how trash is affecting our Earth. It threatens species survival on this planet.<br/><br/> You can help by buying a shirt and donating to our cause. You can help spread awareness by wearing this shirt. People will see how bad this problem is and stop polluting. At the exhibitions you can see before and after photos. People will go to these exhibitions and see how bad this epidemic is, the epidemic of pollution. So please help spread awareness over this problem and help us solve it.<br/><br/> To hold a steady future for humanity and all life, no matter who you are, you can still help. So, help our cause and remember, our future is green.`,
   },
   {
     name: `Sarah Patrick Barze`,
     slug: `sarah-barze`,
     picture: `./assets/SP.webp`,
-    projectName: `Animals...`,
+    projectName: `Paws, Tails, Talons, and Scales`,
     bgImage: `./assets/shelter.webp`,
     shirtFront: `./assets/sp-front.webp`,
     shirtBack: `./assets/sp-back.webp`,
@@ -91,7 +91,7 @@ students.map((student, i) => {
               <button
                 class="snipcart-add-item card-btn"
                 data-item-id="shirt-${student.slug}"
-                data-item-price="26.25"
+                data-item-price="28.00"
                 data-item-url="https://altamont-school.github.io/miree-shirts/"
                 data-item-description="A shirt supporting a project by Miree student ${student.name}."
                 data-item-image="${student.shirtFront}"
@@ -133,7 +133,7 @@ students.map((student, i) => {
             <button
             class="snipcart-add-item card-btn"
             data-item-id="shirt-${student.slug}"
-            data-item-price="26.25"
+            data-item-price="28.00"
             data-item-url="https://altamont-school.github.io/miree-shirts/"
             data-item-description="A shirt supporting a project by Miree student ${student.name}."
             data-item-image="${student.shirtFront}"
