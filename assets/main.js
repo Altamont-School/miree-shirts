@@ -167,3 +167,19 @@ sections.map((section, i) => {
   sectionImg.setAttribute("loading", "lazy");
   studentImages.appendChild(sectionImg);
 });
+
+// Create new date for 6:00 am on Thursday, March 25th 2022
+const date = new Date(2022, 2, 25, 8, 0, 0, 0);
+
+// Get now
+const now = new Date();
+
+if (now > date) {
+  const buttons = document.querySelectorAll("button");
+  const buttonList = Array.from(buttons);
+  buttonList.map((button) => {
+    button.style.display = "none";
+  });
+  const circle = document.querySelector(".circle");
+  circle.style.display = "none";
+}
