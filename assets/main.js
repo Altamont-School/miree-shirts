@@ -1,53 +1,53 @@
 // Miree students featured
 const students = [
   {
-    name: `Riley Pierce`,
-    slug: `riley-pierce`,
-    picture: `./assets/r-pierce.webp`,
-    projectName: `The Recursion Program`,
-    bgImage: `./assets/recursion.webp`,
-    shirtFront: `./assets/riley-front.webp`,
-    shirtBack: `./assets/riley-back.webp`,
-    shortBlurb: `Riley’s mission is to reshape our society, as well the homeless people stuck in poverty. He also runs a program to teach the youth about poverty, and how to help people.`,
-    desc: `Our mission is to reshape the poverty numbers in our society. We are working to support children to volunteer to assist the effort of lowering the poverty percentage in our area. If you buy this shirt, you will be helping to educate children and help people who are less fortunate. When you buy this shirt, you help plant a seed in a young mind to help impoverished people.<br><br>To help you can buy a shirt. If you do so you are not just buying a shirt, you are helping other human beings. When you buy this shirt you not only donate the money for it but by wearing it you inspire people to do the same. One donation can make someone in the 28% of Birmingham that is impoverished live a little longer. You may not know what person will be getting the food bag from you, but you can still know it will help someone through the struggles life throws at them.<br><br>We need to fix this problem and we can't do it alone. We work together.`,
+    name: `Izzy Sellers`,
+    slug: `i-sellers`,
+    picture: `./assets/i-sellers.webp`,
+    projectName: `Mental Health Matters - What Is Your Story?`,
+    bgImage: `./assets/gallery.jpg`,
+    shirtFront: `./assets/izzy-front.webp`,
+    shirtBack: `./assets/izzy-back.webp`,
+    shortBlurb: `Izzy's mission is to bring awareness to mental health. She will be hosting an art exhibition with students' art displayed that reflects on mental health importance. Please help sport Izzy's mission by buying one of our t-shirts.`,
+    desc: `Our mission is to raise mental health awareness and our state, Alabama, is 50th in it. To achieve this goal, and help people suffering from mental health, Izzy will host art exhibitions that display student's artwork. She will also sell merchandise to raise money to assist people who struggle with mental health. By doing this, we are humanizing them. Many people are affected by mental illness and are overlooked.<br /><br />By buying our t-shirt, you are supporting people who are have mental health challenges, along with buying a stylish and unique t-shirt.`,
   },
   {
-    name: `Karen Raymundo-Vega`,
-    slug: `karen-raymundo-vega`,
-    picture: `./assets/k-vega.webp`,
-    projectName: `River Clean Up`,
-    bgImage: `./assets/rivers.webp`,
-    shirtFront: `./assets/karen-front.webp`,
-    shirtBack: `./assets/karen-back.webp`,
-    shortBlurb: `Karen’s mission is to make our future green. She will host cleanups and take before and after photos to put into a photography exhibition to bring awareness about our environment.`,
-    desc: `Our mission is to make our future green by saving the environment. People pollute 14.5 trillion pounds of trash each year. This shirt will help our mission and save the earth. Karen Raymundo-Vega will do exhibitions, cleanups, and take before and after photos to show people how trash is affecting our Earth. It threatens species survival on this planet.<br/><br/> You can help by buying a shirt and donating to our cause. You can help spread awareness by wearing this shirt. People will see how bad this problem is and stop polluting. At the exhibitions you can see before and after photos. People will go to these exhibitions and see how bad this epidemic is, the epidemic of pollution. So please help spread awareness over this problem and help us solve it.<br/><br/> To hold a steady future for humanity and all life, no matter who you are, you can still help. So, help our cause and remember, our future is green.`,
+    name: `Sarah Whitley`,
+    slug: `sarah-whitley`,
+    picture: `./assets/s-whitley.webp`,
+    projectName: `Care for the Coasts`,
+    bgImage: `./assets/coasts.jpg`,
+    shirtFront: `./assets/sarah-front.webp`,
+    shirtBack: `./assets/sarah-back.webp`,
+    shortBlurb: `Sarah Whitley's mission is to clean the Gulf of Mexico by using hair to absorb oil spills and clean the water. By buying this shirt you will ensure the clean future of the coasts.`,
+    desc: `Our mission is to clean up oil spills on the coast of the Gulf of Mexico. Sarah Whitley’s plan is to use hair collected from salons as well as barber shops to absorb the oil. As of now oil spills are being collected in an item called an oil boom. The oil boom does not actually remove the oil from the ocean, it just pushes it away from the coast to help the people living there. Sarah's goal is to remove the oil from the ocean instead of pushing it further out to sea.<br /><br />This shirt is not only a wonderful piece of art, but a way to impact the world. By buying it, it becomes impactful for not only you, but the entire Gulf of Mexico.`,
   },
   {
-    name: `Sarah Patrick Barze`,
-    slug: `sarah-barze`,
-    picture: `./assets/SP.webp`,
-    projectName: `Paws, Tails, Talons, and Scales`,
-    bgImage: `./assets/shelter.webp`,
-    shirtFront: `./assets/sp-front.webp`,
-    shirtBack: `./assets/sp-back.webp`,
-    shortBlurb: `Sarah Patrick's mission is to help animals find loving homes where they are safe and protected. Our solution is asking for donations and fundraising by selling our shirts to help these animals.`,
-    desc: `Our mission is rallying to help animals get adopted and put into good homes. We will do this by raising funds and donating money to shelters. We can prevent animals from being euthanized when it is not needed. With the money that we make, Sarah Patrick will provide the money for animals in shelters. Without your help we cannot achieve our goal of aiding these animals. We would appreciate it if you would devote yourself to this project.<br/><br/> By buying our shirt, you are giving to a great cause, along with owning a stylish T-shirt. This is important for us because it helps spread awareness. Please contribute to helping animals find good homes.`,
+    name: `James Stephens`,
+    slug: `james-stephens`,
+    picture: `./assets/j-stephens.webp`,
+    projectName: `Altamont Paper Recycling`,
+    bgImage: `./assets/recycle.jpg`,
+    shirtFront: `./assets/james-front.webp`,
+    shirtBack: `./assets/james-back.webp`,
+    shortBlurb: `Do you want to stop stressing over the paper you've wasted and thrown in the trash? By supporting James Stephens to raise money for recycling at Altamont, you're doing your part to keep our community clean and help protect our planet.`,
+    desc: `James is an 11th grade student with a very important Miree project about paper recycling at Altamont. James’s mission is to recycle as much paper as he can. He is planning to help our planet by recycling to make the state of our earth greener. By donating or buying our T-shirt you are giving each classroom at Altamont a recycling bin. Also, when buying a T-shirt and wearing it, you are helping spread awareness to recycle all around the community. We have the hope that you can donate to support James’s recycling journey.<br /><br />Buy buying our t-shirt, you will support recycling and making our Earth greener. We need to make this Earth a better place for all of us. If you buy this T-shirt you will help make the Earth a better place. We will be very thankful if you buy our T-shirt to support James Stephens and recycling at Altamont today!`,
   },
 ];
 
 // Sections of middle school students
 const sections = [
   {
-    name: `2nd Period`,
-    picture: `./assets/2nd-period.webp`,
+    name: `3rd Period`,
+    picture: `./assets/3rd-period-2023.webp`,
   },
   {
     name: `6th Period`,
-    picture: `./assets/6th-period.webp`,
+    picture: `./assets/6th-period-2023.webp`,
   },
   {
     name: `7th Period`,
-    picture: `./assets/7th-period.webp`,
+    picture: `./assets/7th-period-2023.webp`,
   },
 ];
 
@@ -89,17 +89,10 @@ students.map((student, i) => {
                 <a href="#${student.slug}" class="tertiary">Learn More &darr;</a>
               </p>
               <button
-                class="snipcart-add-item card-btn"
-                data-item-id="shirt-${student.slug}"
-                data-item-price="28.00"
-                data-item-url="https://altamont-school.github.io/miree-shirts/"
-                data-item-description="A shirt supporting a project by Miree student ${student.name}."
-                data-item-image="${student.shirtFront}"
-                data-item-name="${student.projectName}"
-                data-item-custom1-name="Size"
-                data-item-custom1-options="YS|YM|YL|AS|AM|AL|AXL"
+                class="card-btn"
+                onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
               >
-                <img src="./assets/cart.svg" alt="Shopping Cart" /> Add to cart
+                <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase Shirt!
               </button>
             </div>
   `;
@@ -131,27 +124,10 @@ students.map((student, i) => {
           </p>
           <div class="buttons">
             <button
-            class="snipcart-add-item card-btn"
-            data-item-id="shirt-${student.slug}"
-            data-item-price="28.00"
-            data-item-url="https://altamont-school.github.io/miree-shirts/"
-            data-item-description="A shirt supporting a project by Miree student ${student.name}."
-            data-item-image="${student.shirtFront}"
-            data-item-name="${student.projectName}"
-            data-item-custom1-name="Size"
-            data-item-custom1-options="YS|YM|YL|AS|AM|AL|AXL"
+            class="card-btn"
+            onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
             >
-              <img src="./assets/cart.svg" alt="Shopping Cart" /> Add to cart
-            </button>
-            <button
-              class="snipcart-add-item secondary-card"
-              data-item-id="donation-${student.slug}"
-              data-item-price="5.00"
-              data-item-url="https://altamont-school.github.io/miree-shirts/"
-              data-item-description="A donation supporting a project by Miree student ${student.name}."
-              data-item-name="${student.projectName} Donation"
-            >
-              Donate to this project
+              <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase!
             </button>
           </div>
         </div>
@@ -168,8 +144,8 @@ sections.map((section, i) => {
   studentImages.appendChild(sectionImg);
 });
 
-// Create new date for 6:00 am on Thursday, March 25th 2022
-const date = new Date(2022, 2, 25, 8, 0, 0, 0);
+// Create new date for 6:00 am on Thursday, March 24th 2023
+const date = new Date(2023, 2, 24, 8, 0, 0, 0);
 
 // Get now
 const now = new Date();
