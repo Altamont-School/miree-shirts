@@ -92,7 +92,7 @@ students.map((student, i) => {
                 class="card-btn"
                 onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
               >
-                <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase Shirt!
+                <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase for $25!
               </button>
             </div>
   `;
@@ -125,9 +125,10 @@ students.map((student, i) => {
           <div class="buttons">
             <button
             class="card-btn"
+            style="font-size: .7rem;"
             onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
             >
-              <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase!
+              <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase for $25!
             </button>
           </div>
         </div>
@@ -144,8 +145,8 @@ sections.map((section, i) => {
   studentImages.appendChild(sectionImg);
 });
 
-// Create new date for 6:00 am on Thursday, March 24th 2023
-const date = new Date(2023, 2, 24, 8, 0, 0, 0);
+// Create new date for 8:00 am on Saturday, March 25th 2023
+const date = new Date(2023, 2, 25, 8, 0, 0, 0);
 
 // Get now
 const now = new Date();
