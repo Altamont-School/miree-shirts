@@ -121,6 +121,9 @@ students.map((student, i) => {
           </div>
           <p>
             ${student.desc}
+            <br />
+            <br />
+            If you'd prefer to make a donation, <a href="https://www.altamontschool.org/giving/giving/designated-student-project-donations" rel="noopener" target="_blank">click here</a> and enter <b>${student.projectName}</b> in the "leave a comment" section.
           </p>
           <div class="buttons">
             <button
