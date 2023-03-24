@@ -148,8 +148,8 @@ sections.map((section, i) => {
   studentImages.appendChild(sectionImg);
 });
 
-// Create new date for 8:00 am on Saturday, March 25th 2023
-const date = new Date(2023, 2, 25, 8, 0, 0, 0);
+// Create new date for 12:00 am on Wednesday, April 6th 2023
+const date = new Date(2023, 3, 6, 0, 0, 0, 0);
 
 // Get now
 const now = new Date();
