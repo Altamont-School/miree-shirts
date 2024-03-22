@@ -1,37 +1,26 @@
 // Miree students featured
 const students = [
   {
-    name: `Izzy Sellers`,
-    slug: `i-sellers`,
-    picture: `./assets/i-sellers.webp`,
-    projectName: `Mental Health Matters - What Is Your Story?`,
-    bgImage: `./assets/gallery.jpg`,
-    shirtFront: `./assets/izzy-front.webp`,
-    shirtBack: `./assets/izzy-back.webp`,
-    shortBlurb: `Izzy's mission is to bring awareness to mental health. She will be hosting an art exhibition with students' art displayed that reflects on mental health importance. Please help sport Izzy's mission by buying one of our t-shirts.`,
-    desc: `Our mission is to raise mental health awareness and our state, Alabama, is 50th in it. To achieve this goal, and help people suffering from mental health, Izzy will host art exhibitions that display student's artwork. She will also sell merchandise to raise money to assist people who struggle with mental health. By doing this, we are humanizing them. Many people are affected by mental illness and are overlooked.<br /><br />By buying our t-shirt, you are supporting people who are have mental health challenges, along with buying a stylish and unique t-shirt.`,
+    name: `Raju Sudarshan`,
+    slug: `r-sudarshan`,
+    picture: `./assets/r-sudarshan.webp`,
+    projectName: `Continuous Care for Juvenile Diabetes`,
+    bgImage: `./assets/finger_prick.png`,
+    shirtFront: `./assets/raju-front.webp`,
+    shirtBack: `./assets/raju-back.webp`,
+    shortBlurb: `Have you ever gotten your finger pricked at the doctor? If the answer is yes, then imagine having to do that around 10 times a day just to check your blood sugar.`,
+    desc: `Have you ever gotten your finger pricked at the doctor? If the answer is yes, then imagine having to do that around 10 times a day just to check your blood sugar. How does it make you feel knowing that children go through this? That is why the Altamont School’s mission is to help raise enough money for children that cannot afford continuous glucose monitors in the first month before insurance covers it. Altamont’s sixth grade class designed and produced a t-shirt to help fund that cause. The person who made this project was Raju Sudarshan, a student at Altamont. He suffers from type 1 diabetes, also known as juvenile diabetes. Raju understands how painful it is to use finger pricks and knows the damages it can do to your physical and mental health. A continuous glucose monitor, along with stopping finger pricks, also allows patients to return to their normal every-day life and activities (sports, school, hanging with friends, etc.), as well as feel safe at all times, especially during the night. No child should suffer through this any longer. Now think back to the question we originally asked. Would you like to help us get these children the technology they deserve? If the answer is yes, then by buying a t-shirt you are supporting Raju's mission and helping kids with juvenile diabetes. `,
   },
   {
-    name: `Sarah Whitley`,
-    slug: `sarah-whitley`,
-    picture: `./assets/s-whitley.webp`,
-    projectName: `Care for the Coasts`,
-    bgImage: `./assets/coasts.jpg`,
-    shirtFront: `./assets/sarah-front.webp`,
-    shirtBack: `./assets/sarah-back.webp`,
-    shortBlurb: `Sarah Whitley's mission is to clean the Gulf of Mexico by using hair to absorb oil spills and clean the water. By buying this shirt you will ensure the clean future of the coasts.`,
-    desc: `Our mission is to clean up oil spills on the coast of the Gulf of Mexico. Sarah Whitley’s plan is to use hair collected from salons as well as barber shops to absorb the oil. As of now oil spills are being collected in an item called an oil boom. The oil boom does not actually remove the oil from the ocean, it just pushes it away from the coast to help the people living there. Sarah's goal is to remove the oil from the ocean instead of pushing it further out to sea.<br /><br />This shirt is not only a wonderful piece of art, but a way to impact the world. By buying it, it becomes impactful for not only you, but the entire Gulf of Mexico.`,
-  },
-  {
-    name: `James Stephens`,
-    slug: `james-stephens`,
-    picture: `./assets/j-stephens.webp`,
-    projectName: `Altamont Paper Recycling`,
-    bgImage: `./assets/recycle.jpg`,
-    shirtFront: `./assets/james-front.webp`,
-    shirtBack: `./assets/james-back.webp`,
-    shortBlurb: `Do you want to stop stressing over the paper you've wasted and thrown in the trash? By supporting James Stephens to raise money for recycling at Altamont, you're doing your part to keep our community clean and help protect our planet.`,
-    desc: `James is an 11th grade student with a very important Miree project about paper recycling at Altamont. James’s mission is to recycle as much paper as he can. He is planning to help our planet by recycling to make the state of our earth greener. By donating or buying our T-shirt you are giving each classroom at Altamont a recycling bin. Also, when buying a T-shirt and wearing it, you are helping spread awareness to recycle all around the community. We have the hope that you can donate to support James’s recycling journey.<br /><br />Buy buying our t-shirt, you will support recycling and making our Earth greener. We need to make this Earth a better place for all of us. If you buy this T-shirt you will help make the Earth a better place. We will be very thankful if you buy our T-shirt to support James Stephens and recycling at Altamont today!`,
+    name: `Eden Moody`,
+    slug: `e-moody`,
+    picture: `./assets/e-moody.webp`,
+    projectName: `I’m known, you’re known – help others be seen today`,
+    bgImage: `./assets/girls-reading.webp`,
+    shirtFront: `./assets/eden-front.webp`,
+    shirtBack: `./assets/eden-back.webp`,
+    shortBlurb: `Imagine you are a young Black girl who has low self-esteem and feel like you don't have anyone who you can go to for support. Imagine being mistreated for things that you can't control.`,
+    desc: `Imagine you are a young Black girl who has low self-esteem and feel like you don't have anyone who you can go to for support. Imagine being mistreated for things that you can't control. Imagine growing up with people who don’t understand you and make you feel like you just don't fit in. Eden Moody is a 10th grader from Altamont who is trying to help young Black girls gain self -esteem and confidence. Eden has been in this situation herself, so this project means so much to her! Her Miree project is a book that will help young Black girls feel more confident and supported. Think about a time when you were neglected or not supported when you thought you needed it. Think about how that made you feel. Purchase our shirt and you will be helping Eden by getting her enough money to publish her book and spreading her message even more.`,
   },
 ];
 
@@ -90,7 +79,7 @@ students.map((student, i) => {
               </p>
               <button
                 class="card-btn"
-                onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
+                onclick="window.open('https://www.myschoolshares.com/schools/the-altamont-schl-birmingham-al/store')"
               >
                 <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase for $25!
               </button>
@@ -123,13 +112,13 @@ students.map((student, i) => {
             ${student.desc}
             <br />
             <br />
-            If you'd prefer to make a donation, <a href="https://www.altamontschool.org/giving/giving/designated-student-project-donations" rel="noopener" target="_blank">click here</a> and enter <b>${student.projectName}</b> in the "leave a comment" section.
+            If you'd prefer to make a donation, <a href="https://host.nxt.blackbaud.com/donor-form?svcid=tcs&formId=caace702-1e84-4782-b8ee-a7e9a5a6f4a8&envid=p-TXIC5ZT33Em9MPiPKMeOig&zone=usa" rel="noopener" target="_blank">click here</a> and enter <b>${student.projectName}</b> in the "leave a comment" section.
           </p>
           <div class="buttons">
             <button
             class="card-btn"
             style="font-size: .7rem;"
-            onclick="window.open('https://forms.office.com/Pages/ResponsePage.aspx?id=POz9d9wB60KSyaUjsIJV-QaSSpu1oH1BqL5VHrbv6eNUNVdTMlBHT1FYWDQxWjBROU9RMzhNSUlPMi4u')"
+            onclick="window.open('https://www.myschoolshares.com/schools/the-altamont-schl-birmingham-al/store')"
             >
               <img src="./assets/cart.svg" alt="Shopping Cart" /> Purchase for $25!
             </button>
@@ -148,8 +137,8 @@ sections.map((section, i) => {
   studentImages.appendChild(sectionImg);
 });
 
-// Create new date for 12:00 am on Wednesday, April 6th 2023
-const date = new Date(2023, 3, 6, 0, 0, 0, 0);
+// Create new date for 12:00 am on Wednesday, April 6th 2024
+const date = new Date(2024, 3, 6, 0, 0, 0, 0);
 
 // Get now
 const now = new Date();
