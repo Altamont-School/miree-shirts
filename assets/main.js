@@ -20,7 +20,7 @@ const students = [
     shirtFront: `./assets/eden-front.webp`,
     shirtBack: `./assets/eden-back.webp`,
     shortBlurb: `Imagine you are a young Black girl who has low self-esteem and feel like you don't have anyone who you can go to for support. Imagine being mistreated for things that you can't control.`,
-    desc: `Imagine you are a young Black girl who has low self-esteem and feel like you don't have anyone who you can go to for support. Imagine being mistreated for things that you can't control. Imagine growing up with people who don’t understand you and make you feel like you just don't fit in. Eden Moody is a 10th grader from Altamont who is trying to help young Black girls gain self -esteem and confidence. Eden has been in this situation herself, so this project means so much to her! Her Miree project is a book that will help young Black girls feel more confident and supported. Think about a time when you were neglected or not supported when you thought you needed it. Think about how that made you feel. Purchase our shirt and you will be helping Eden by getting her enough money to publish her book and spreading her message even more.`,
+    desc: `Imagine you are a young Black girl who has low self-esteem and feel like you don't have anyone who you can go to for support. Imagine being mistreated for things that you can't control. Imagine growing up with people who don’t understand you and make you feel like you just don't fit in. Eden Moody is a 10th grader from Altamont who is trying to help young Black girls gain self-esteem and confidence. Eden has been in this situation herself, so this project means so much to her! Her Miree project is a book that will help young Black girls feel more confident and supported. Think about a time when you were neglected or not supported when you thought you needed it. Think about how that made you feel. Purchase our shirt and you will be helping Eden by getting her enough money to publish her book and spreading her message even more.`,
   },
 ];
 
@@ -28,15 +28,11 @@ const students = [
 const sections = [
   {
     name: `3rd Period`,
-    picture: `./assets/3rd-period-2023.webp`,
+    picture: `./assets/feedback-2024.webp`,
   },
   {
     name: `6th Period`,
-    picture: `./assets/6th-period-2023.webp`,
-  },
-  {
-    name: `7th Period`,
-    picture: `./assets/7th-period-2023.webp`,
+    picture: `./assets/course-3-2024.webp`,
   },
 ];
 
